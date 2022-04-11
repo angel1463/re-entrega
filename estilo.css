@@ -1,0 +1,626 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+@media screen and (max-width:992px)  {
+    .menu {
+        background-color: white;
+        border-radius: 20px;
+        width: 800px;
+        height: 40px;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: flex-start;
+        grid-column: 1/-1;
+       
+    }
+    
+    nav a {
+        margin: 10px;
+        grid-column: 1/-1;
+    }
+
+  .menu a {
+    list-style: none;
+    font-size: 1.3em;
+    margin-top: 10px;
+    height: 100px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:black ;
+    background-color: white;
+    grid-column: 1/-1;   
+    
+}
+
+.section-4{
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-column: 1/-1;
+    
+
+}
+
+}
+
+
+
+
+
+.contenedor-general {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+
+.contenedor-menu {
+
+    margin: 0 auto;
+    background: #22babb;
+    
+}
+
+
+.menu {
+    background-color: white;
+    border-radius: 20px;
+    width: 800px;
+    height: 40px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+
+nav a {
+    margin: 10px;
+}
+
+.item-1 {
+   display: flex;
+   justify-content: center;
+ }
+ 
+
+h3 {
+    font-size: 1.2em;   
+    font-family: sans-serif;
+    color: #22babb;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+#logo {
+    background-color:#22babb ;
+    color: white;
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+
+   
+h1 {
+    
+    background-color:#22babb ;
+    color: white;
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+
+li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+ 
+}
+
+.menu a {
+    list-style: none;
+    font-size: 1.3em;
+    margin-top: 10px;
+    height: 100px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:black ;
+    background-color: white;   
+    
+}
+
+.menu a:hover {
+    list-style: none;
+    font-size: 1.3em;
+    margin-top: 10px;
+    height: 100px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #22babb;
+    background-color: white;    
+}
+
+
+
+
+
+
+/*SECTION 1 */
+
+.section-1 {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    background-image: url(./img2/Grupo_8.png);
+}
+
+
+
+.section-1 div{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+h3 {
+    font-size: 1.2em;   
+    font-family: sans-serif;
+    color: #22babb;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+
+
+/*SECTION 2 */
+.section-2 div {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    
+
+}
+
+
+.descuento{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color:#22babb ;
+    width: 100%;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ 
+}
+
+
+
+
+/*SECTION 3 */
+
+.section-3{
+    display: grid;
+    width: 105%;
+
+    grid-template-columns: repeat(1, 1fr);
+    
+
+}
+
+.banner {
+    background-image: url(./img2/Grupo_1@2x2.jpg);
+    height: 500px;
+    background-size: cover;
+    
+}
+
+.banner h2 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-top: 210px;
+}
+
+/*SECTION 4 */
+
+.section-4{
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    grid-column: 1/-1;
+   
+}
+
+
+.moda h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+
+    
+}
+
+.moda {
+    background-color: #fdc308;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+
+}
+
+.moda h2 {
+    
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 110px;
+
+}
+
+
+
+
+
+
+
+/*SECTION 5 */
+
+
+
+.section-5{
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    
+
+
+}
+
+
+.section-5 .fondobanner {
+    background-image:url(./img2/javygo-ZdySMOIicMo-unsplash.png);
+    height: 145px;
+    margin-top: 20px;
+    
+    
+   
+
+}
+
+
+.texto1 {
+    text-align: left;
+    font-size: 40px;
+    font-family:sans-serif;  
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+       
+}
+
+
+
+
+/* SECTION-6 FOOTER*/
+
+
+.section-6{
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    
+
+
+}
+
+
+footer {
+    background-color: #9ef8ee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.encontranos{
+    display: inline;
+    font-size: 25px;
+    padding-top:20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    color: #348888;
+    float: left;
+  
+    
+}
+
+.email{
+    font-size: 25px;
+    padding-top:1px;
+    padding-bottom: 10px;
+    height: 5px;
+    float: right;
+    margin: -100px;
+    margin-right: 100px ;
+    
+ 
+}
+
+.email a {
+    text-decoration: none;
+    color: #348888;
+    height: 5px;
+    
+    
+}
+
+.iconos {
+    padding-top: 5px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+    margin: 20px;
+    display: flex;
+    font-size: 2.5em;
+    gap: 3em;
+
+
+}
+
+.iconos i {
+    color: #348888;
+   
+}
+
+.iconos i:hover {
+    color: white;
+}
+
+
+/*Contacto*/
+
+.section1{
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    
+
+}
+
+
+.buscarnos{
+    background-color: #FDC308;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+   
+}
+
+.contacto {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    margin-top: 20px;
+}
+.contenedorcontacto{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+    
+
+.form {
+    text-align: left;
+    float: left;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    
+} 
+
+.mapa{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.viajar{
+    text-align: center;
+    background-color: #CACED1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+
+.como{
+    color: black;
+    font-size: 20px;
+}
+
+.viajar i{
+    font-size: 70px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.horarios{
+    text-align: left;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    background-color: #FDC308;
+    font-size: 16px;
+    width: 550px;
+   
+}
+
+.turnos{
+    text-align: right;
+    float: right;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #FDC308;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 120px;
+    width: 550px;
+}
+
+#infocontacto{
+    background-color: #FDC308;
+
+}
+
+@media screen and (max-width:992px){
+    .buscarnos{
+        background-color: #FDC308;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-column: 1/-1;
+       
+    }
+    
+.contacto {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    margin-top: 20px;
+    grid-column: 1/-1;
+}
+.contenedorcontacto{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    grid-column: 1/-1;
+}
+    
+
+.form {
+    text-align: left;
+    float: left;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    grid-column: 1/-1;
+    
+} 
+
+
+
+.viajar{
+    text-align: center;
+    background-color: #CACED1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-column: 1/-1;
+   
+}
+
+.como{
+    color: black;
+    font-size: 20px;
+}
+
+.viajar i{
+    font-size: 70px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    grid-column: 1/-1;
+
+}
+
+.horarios{
+    text-align: left;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    background-color: #FDC308;
+    font-size: 16px;
+    width: 550px;
+    grid-column: 1/-1;
+   
+}
+
+.turnos{
+    text-align: right;
+    
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #FDC308;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 120px;
+    width: 550px;
+    grid-column: 1/-1;
+
+}
+
+#infocontacto{
+    background-color: #FDC308;
+    grid-column: 1/-1;
+
+}
+
+}
