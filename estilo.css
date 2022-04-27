@@ -80,14 +80,16 @@
     background-color: white;
     border-radius: 20px;
     width: 800px;
-    height: 40px;
+    height: 80px;
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
     margin-bottom: 30px;
     margin-left: 20px;
     margin-right: 20px;
+    overflow-y: hidden;
+
    
 }
 
@@ -269,7 +271,7 @@ h3 {
     text-align: center;
     color: white;
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 210px;
     animation: myAnim 2s ease 0s 1 normal forwards;
 }
@@ -304,7 +306,7 @@ h3 {
 	}
 }
 
-/*SECTION 4 */
+/*SECTION 4 
 
 .section-4{
     display: grid;
@@ -315,15 +317,16 @@ h3 {
     justify-content: space-between;
     grid-column: 1/-1;
    
-}
+}*/
 
 
-.moda h3 {
+.row h3 {
     font-size: 2em;
     margin-top: 20px;
     padding-top: 30px;
     padding-bottom: 40px;
-    color: white;
+    color: #22babb;
+
 
     
 }
@@ -331,12 +334,12 @@ h3 {
 .moda {
     background-color: #fdc308;
     width: 100%;
-    height: 300px;
+    height: 150px;
     text-align: center;
-    padding: 50px;
     display: flex;
     align-items: center;
-    grid-gap: 120px;
+    justify-content: center;
+    
 
 }
 
@@ -344,21 +347,10 @@ h3 {
     
     font-size: 30px;
     font-weight: 300;
-    padding-top: 110px;
-    
-  
-
+   
 }
 
-
-
-
-
-
-
 /*SECTION 5 */
-
-
 
 .section-5{
     display: grid;
@@ -366,22 +358,15 @@ h3 {
 
     grid-template-columns: repeat(1, 1fr);
     
-
-
 }
-
 
 .section-5 .fondobanner {
     background-image:url(./img2/javygo-ZdySMOIicMo-unsplash.png);
     height: 145px;
     margin-top: 20px;
-    
-    
-    
-   
-
+    overflow-y: hidden;
+ 
 }
-
 
 .texto1 {
     text-align: left;
@@ -395,10 +380,7 @@ h3 {
        
 }
 
-
-
-
-/* SECTION-6 FOOTER*/
+/* SECTION-6 FOOTER
 
 
 .section-6{
@@ -409,7 +391,7 @@ h3 {
     
 
 
-}
+}*/
 
 
 footer {
@@ -421,6 +403,7 @@ footer {
     
     display: flex;
     align-items: center;
+    justify-content: center;
     background-image: linear-gradient(to left, aqua, yellow);
     
 }
@@ -429,45 +412,18 @@ footer {
     display: inline;
     font-size: 25px;
     padding-top:20px;
-    padding-bottom: 30px;
-    padding-left: 10px;
     color: #348888;
-    float: left;
+    text-align: center;
     
   
     
 }
 
-.email{
-    font-size: 25px;
-    padding-top:1px;
-    padding-bottom: 10px;
-    height: 5px;
-    float: right;
-    margin: -100px;
-    margin-right: 100px ;
-    
- 
-}
-
-.email a {
-    text-decoration: none;
-    color: #348888;
-    height: 5px;
-    
-    
-}
 
 .iconos {
-    padding-top: 5px;
-    padding-left: 70px;
     padding-bottom: 5px;
-    margin: 20px;
     display: flex;
-  
-    font-size: 2.5em;
-    grid-gap: 8em;
-    
+    justify-content: center;
 
 }
 
@@ -475,12 +431,34 @@ footer {
 
 .iconos i {
     color: #348888;
+    font-size: 1.6em;
+    text-align: center;
    
 }
 
 .iconos i:hover {
     color: white;
     
+}
+
+
+@media screen and (max-width:987px) {
+
+
+    .iconos {
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+
+    .iconos i {
+        color: #348888;
+        font-size: 0.8em;
+        text-align: center;
+       
+    }
 }
 
 
@@ -513,6 +491,7 @@ footer {
     font-size: 30px;
     font-weight: 300px;
     margin-top: 20px;
+    
 }
 .contenedorcontacto{
     margin-top: 40px;
@@ -524,15 +503,11 @@ footer {
     text-align: left;
     float: left;
     padding-bottom: 50px;
-    padding-left: 150px;
+    padding-left: 120px;
+    padding-right: 120px;
     
 } 
 
-.mapa{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 .viajar{
     text-align: center;
@@ -615,6 +590,7 @@ footer {
     background-color: #FDC308;
 
 }
+
 
 @media screen and (max-width:992px){
     .buscarnos{
@@ -737,3 +713,199 @@ footer {
     float: left;
 
 }
+
+
+
+/* Mascotas */ 
+
+.mascota h2 {
+    text-align: center; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+.mascota .row .col-lg-4  {
+    text-align: center; 
+}
+
+
+
+.mascota .video h2 {
+   text-align: center;
+   display: flex;
+   justify-content: center;
+
+   font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+   
+}
+    
+
+
+.video iframe {
+text-align: center;
+}
+
+/*SECTION 6 */
+
+
+
+.section-6 .moda {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+
+
+}
+
+
+/* Servicios */
+
+.fondohuesitos {
+background-image: url(./img2/huesitos.jpg);
+}
+
+.fondohuesitos h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    margin-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.servicios {
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.servicios h3 {
+    font-size: 25px;
+    font-weight: 300px;
+    color: #348888;
+    margin-top: 50px;
+}
+
+.servicios p {
+    font-size: 16px;
+    color: gray;
+    margin-top: 100px;
+}
+
+.serv1 {
+    background-image: url(./img2/pelu.jpg);
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 646px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+
+.serv2 {
+    background-image: url(./img2/vete.jpg); 
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 646px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.serv3 {
+    background-image: url(./img2/paseo.jpg);
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 646px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.serv4 {
+    background-image: url(./img2/luni.jpg);
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 646px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.serv5 {
+    background-image: url(./img2/spa.jpg);
+    background-repeat: no-repeat;
+    width: 201px;
+    height: 646px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+
+/* Accesorios */
+
+.section-1 {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    background-image: url(./img2/Grupo_8.png);
+}
+
+
+
+.section-1 div{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+
+
+.modas {
+    text-align: center;
+}
+
+.modas h3 {
+    font-size: 25px;
+    font-weight: 300px;
+    color: #348888;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.accesorios {
+    background-color: #FDC308;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.accesorios h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.accesorios img {
+
+    padding-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+
+    
+
+    

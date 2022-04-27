@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=@, initial-scale=1.0">
-    <link rel="Stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="Stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/9240653773.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Servicios</title>
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="contenedor">
+    <div class="contenedor-general">
+        <header>
+            <div class="contenedor-menu">
 
-            <h1 id="logo">LUNI Pet shop </h1>
-            
-       
-
-         <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="mascotas.html">Mascotas</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="accesorios.html">Accesorios</a></li>
-                </ul>
-            </nav>
-           </div>
-        </div>   
+                <h1 id="logo">LUNI Pet shop </h1>
+                
            
-    </header> 
+    
+             <div class="item-1"><div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="mascotas.html">Mascotas</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="accesorios.html">Accesorios</a></li>
+                    </ul>
+                </nav>
+               </div>
+                </div>
+                
+               
+            </div>   
+        </header> 
 
     <main>
         
@@ -78,21 +85,28 @@
     </main>
 
     <footer class="footer">
+                  
 
-        <div class="iconos">
-
+        <div class="row">
             <p class="encontranos">Encontranos en las redes</p>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+           
+            <div class="iconos">
+                <div class="col-lg-4"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="col-lg-4"><a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></div>
+                <div class="col-lg-4"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></div>
+            </div>
+            
+            
         </div>
-  
-        <div class="email">
+
         
-            <a href="mailto:lunipetshop@gmail.com">lunipetshop@gmail.com</a>
-    
-        </div>
+  
+        
     </footer>
+
+    <!-- Archivo JS Bootstrap 5 -->   
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>

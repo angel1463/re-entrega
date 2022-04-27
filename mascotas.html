@@ -3,91 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=@, initial-scale=1.0">
-    <link rel="Stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="Stylesheet" href="estilo.css">
     <script src="https://kit.fontawesome.com/9240653773.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <title>Mascotas</title>
+
+    <!-- Archivo CSS Bootstrap 5 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="contenedor">
+    <div class="contenedor-general">
+        <header>
+            <div class="contenedor-menu">
 
-            <h1 id="logo">LUNI Pet shop </h1>
-            
-       
-
-         <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="mascotas.html">Mascotas</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="accesorios.html">Accesorios</a></li>
-                </ul>
-            </nav>
-           </div>
-        </div>   
+                <h1 id="logo">LUNI Pet shop </h1>
+                
            
-    </header> 
+    
+             <div class="item-1"><div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="mascotas.html">Mascotas</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="accesorios.html">Accesorios</a></li>
+                    </ul>
+                </nav>
+               </div>
+                </div>
+                
+               
+            </div>   
+        </header> 
        
     <main>
-       
-        <div class="video">
-            <h2>MASCOTAS</h2>
-            <br>
-        <iframe width="1300" height="1005" src="https://www.youtube.com/embed/vgXw0H-jhUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div> 
+        
+
+    
         
         <section class="mascota">
-            <div><img  src="./img2/mascota1.jpg" alt="accesorio1">
-                <img  src="./img2/mascota2.jpg" alt="accesorio1">
-                <img  src="./img2/mascota3.jpg" alt="accesorio1">
-                <img src="./img2/mascota4.jpg" alt="accesorio1">
-                <img  src="./img2/mascota5.jpg" alt="accesorio1">
+
+            <div class="row">
+                <h2>MASCOTAS</h2>
+            </div>
+            
+            <div class="row">
+                <iframe width="1100" height="805" src="https://www.youtube.com/embed/vgXw0H-jhUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <div><img src="./img2/mascota6.jpg" alt="accesorio1">
-                <img  src="./img2/mascota7.jpg" alt="accesorio1">
-                <img src="./img2/mascota8.jpg" alt="accesorio1">
-                <img src="./img2/mascota9.jpg" alt="accesorio1">
-                <img  src="./img2/mascota10.jpg" alt="accesorio1">
-            </div> 
+            <div class="row">
+                
+                <div class="col-lg-4">
+                    <img  src="./img2/mascota1.jpg" alt="accesorio1">
+                    <img  src="./img2/mascota2.jpg" alt="accesorio1">
+                    <img  src="./img2/mascota3.jpg" alt="accesorio1">
+                    <img src="./img2/mascota4.jpg" alt="accesorio1">
+                    
+                </div>
 
-            <div><img  src="./img2/mascota11.jpg" alt="accesorio1">
-                <img  src="./img2/mascota12.jpg" alt="accesorio1">
-                <img  src="./img2/mascota13.jpg" alt="accesorio1">
-                <img  src="./img2/mascota14.jpg" alt="accesorio1">
-                <img  src="./img2/mascota15.jpg" alt="accesorio1">
+
+                <div class="col-lg-4">
+                    <img  src="./img2/mascota5.jpg" alt="accesorio1">
+                    <img src="./img2/mascota6.jpg" alt="accesorio1">
+                    <img  src="./img2/mascota7.jpg" alt="accesorio1">
+                    <img src="./img2/mascota8.jpg" alt="accesorio1">
+                    
+                </div>
+
+
+                <div class="col-lg-4">
+                    <img src="./img2/mascota9.jpg" alt="accesorio1">
+                    <img  src="./img2/mascota10.jpg" alt="accesorio1">
+                    <img  src="./img2/mascota11.jpg" alt="accesorio1">
+                    <img  src="./img2/mascota12.jpg" alt="accesorio1">
+                    
+                    
+                
+                </div>
+
+
+                
             </div>
+            
+
+            
 
         </section>
 
+        <section class="section-6">
             <div class="moda">
                 <h2>ADOPCIÓN DE NUESTROS CACHORROS</h2>
             </div>
+        </section>
+
+
+            
 
 
     </main>
 
 
     <footer class="footer">
+                  
 
-        <div class="iconos">
-
+        <div class="row">
             <p class="encontranos">Encontranos en las redes</p>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+           
+            <div class="iconos">
+                <div class="col-lg-4"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="col-lg-4"><a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></div>
+                <div class="col-lg-4"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></div>
+            </div>
+            
+            
         </div>
-  
-        <div class="email">
+
         
-            <a href="mailto:lunipetshop@gmail.com">lunipetshop@gmail.com</a>
-    
-        </div>
+  
+        
     </footer>
+
+    <!-- Archivo JS Bootstrap 5 -->   
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
